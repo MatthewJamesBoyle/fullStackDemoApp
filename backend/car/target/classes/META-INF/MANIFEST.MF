@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: car
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: 212335499
+Implementation-Vendor-Id: com.boyle.matt.car
+Build-Jdk: 1.8.0_101
+Implementation-URL: http://projects.spring.io/spring-boot/car/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
