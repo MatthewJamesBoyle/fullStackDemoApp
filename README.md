@@ -10,7 +10,7 @@ Either fork or clone the project to get started.
 For ease of getting started, I reccomend using the Spring boot suite which is available here:
 [https://spring.io/tools/sts]
 
-###Backend
+###Back end
 click  file -> import -> existing maven project. You should see a bunch of different sub projects(microservices).
 Run the Gateway service first,then the discovery,then each of the other microservices).
 You can now go to:
@@ -24,7 +24,7 @@ Appending an id to the end of this will get the details of that car/auction/sell
 ```
 
 
-###frontEnd
+###front End
 cd into the root folder of the front end and run npm start. This will trigger and npm install and spin up the front end on port 8000.
 The front end is now running.
 _Note:_ You will need to enable CORS in chrome for the front end to pull data from the backend. I reccomend this chrome plugin:
