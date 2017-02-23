@@ -14,18 +14,21 @@ For ease of getting started, I reccomend using the Spring boot suite which is av
 click  file -> import -> existing maven project. You should see a bunch of different sub projects(microservices).
 Run the Gateway service first,then the discovery,then each of the other microservices).
 You can now go to:
-'''[http://localhost:8080/cars] 
+```[http://localhost:8080/cars] 
 [http://localhost:8080/auction]
-[http://localhost:8080/seller]'''
+[http://localhost:8080/seller]
+```
 Appending an id to the end of this will get the details of that car/auction/seller
-'''[http://localhost:8080/cars/1]'''
+```[http://localhost:8080/cars/1]
+```
 
 
 ###frontEnd
 cd into the root folder of the front end and run npm start. This will trigger and npm install and spin up the front end on port 8000.
 The front end is now running.
 _Note:_ You will need to enable CORS in chrome for the front end to pull data from the backend. I reccomend this chrome plugin:
-'''[https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en]'''
+```[https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en]
+````
 
 
 
